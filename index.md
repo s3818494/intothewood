@@ -160,7 +160,7 @@
             }
 
 
-        document.getElementById("top").addEventListener("click", backToTop);
+        document.getElementById("refresh").addEventListener("click", backToTop);
 
         function backToTop() {
              window.location.reload("Refresh");
