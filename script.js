@@ -213,40 +213,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 $("#text5").css("color", "black");
                 $("#text5").css("background-color", "rgb(255,255,255)");
 
-                // $("#tree2").css("opacity", 0);
-                // $("#tree3").css("opacity", 0);
-                // $("#tree4").css("opacity", 0);
-                // $("#tree5").css("opacity", 0);
-
                 console.log("clicked");
               }
         });
 
-
-        $("#top").click(function() {
-            $('html, body').animate({scrollTop:0},'10000');
-        })
     
     });
 
-
-    // document.getElementById("contrast").addEventListener("click", function() {
-    //     document.getElementById("box_tick").style.opacity = 1;
-    // });
-
-    // function myFunction() {
-    //     var element = document.body;
-    //     element.classList.toggle("dark-mode").style.opacity = 1;
-    //  }
-
-//     var btnBack = document.getElementById('myFunction');
-//         var bgDay = document.getElementsByClassName("day");
-//         var bgNight = document.getElementsByClassName("night")
-//         btnBack.addEventListener('click',function() {
-//             document.bgDay.classList.toggle('high-contrast');
-//             document.bgNight.classList.toggle('high-contrast');
-// });
-//      }
 
 })
 
