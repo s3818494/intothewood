@@ -34,9 +34,15 @@
                 Save trees, save the Earth.
             </div>
 
-            <div id="top">
+            <div id="refresh">
+                <div id="refresh_btn">
+                    <span class="glyphicon glyphicon-repeat"></span>
+                </div>
                 <img src="9.png" id="top_arrow">
-                Back to top
+                Restart
+            </div>
+            <div id="mixkit">
+                Sound Effects by Mixkit.co
             </div>
         </div>
 
@@ -104,12 +110,12 @@
             <div id="night_audio">
                 <button onclick="playNightAudio()" type="button" id="play_night">
                     <span class="glyphicon glyphicon-play"></span>
-                    Play
+                    Play Audio
                 </button>
 
                 <button onclick="pauseNightAudio()" type="button" id="pause_night">
                     <span class="glyphicon glyphicon-pause"></span>
-                    Pause
+                    Pause Audio
                 </button>
             </div>
 
@@ -121,12 +127,12 @@
             <div id="day_audio">
                 <button onclick="playDayAudio()" type="button" id="play_day">
                     <span class="glyphicon glyphicon-play"></span>
-                    Play
+                    Play Audio
                 </button>
 
                 <button onclick="pauseDayAudio()" type="button" id="pause_day">
                     <span class="glyphicon glyphicon-pause"></span>
-                    Pause
+                    Pause Audio
                 </button>
             </div>
 
@@ -154,11 +160,11 @@
             }
 
 
-        // document.getElementById("top").addEventListener("click", backToTop);
+        document.getElementById("top").addEventListener("click", backToTop);
 
-        // function backToTop() {
-        //     window.location.reload("Refresh");
-        // }
+        function backToTop() {
+             window.location.reload("Refresh");
+        }
 
     </script>
 
